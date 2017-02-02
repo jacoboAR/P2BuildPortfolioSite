@@ -1,0 +1,142 @@
+.Projects {
+    background-color: #fff;
+    position: relative;
+    width: 90%;
+    margin: -2rem auto 2rem;
+    border-radius: .65rem;
+    padding: .5rem;
+}
+
+.Projects-title {
+    font-size: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    margin-bottom: .3rem;
+}
+
+.Projects-subtitle {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.Separator {
+    margin: 2rem 3rem;
+}
+
+.Projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.Card-container {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .50rem;
+    width: 100%;
+    min-height: 23rem;
+    height: 100%;
+}
+
+.Card-header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: .50rem;
+    border-top-right-radius: .50rem;
+    height: 9rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.Card-header--project1 {
+    background-image: url(../images/project1.jpg);
+}
+
+.Card-header--project2 {
+    background-image: url(../images/project2.jpg);
+}
+
+.Card-header--project3 {
+    background-image: url(../images/project3.jpg);
+}
+
+.Card-header--project4 {
+    background-image: url(../images/project4.jpg);
+}
+
+.Card-header--project5 {
+    background-image: url(../images/project5.jpg);
+}
+
+.Card-header--project6 {
+    background-image: url(../images/project6.jpg);
+}
+
+.Card-header--project7 {
+    background-image: url(../images/project7.jpg);
+}
+
+.Card-header--project8 {
+    background-image: url(../images/project8.jpg);
+}
+
+.Card-title, .Card-text, .Card-badget {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Card-title h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.Card-text p {
+    font-size: .8rem;
+}
+
+@media screen and (min-width:576px) {
+    .Card {
+        width: 50%;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .Projects {
+        width: 720px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .Projects {
+        width: 960px;
+        max-width: 100%;
+    }
+
+    .Card {
+        width: 33.33%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .Projects {
+        width: 1140px;
+        max-width: 100%;
+    }
+
+    .Card {
+        width: 25%;
+    }
+}
